@@ -20,7 +20,6 @@ public class StudentMgmntApplicationTests {
 	public void helloTest() {
 		
 	String data =	student.HelloStudent();
-	assertEquals("hello student", data);
-	
+	assertEquals("hello student", data);	
 	}
 }
