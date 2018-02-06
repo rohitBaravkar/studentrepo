@@ -36,6 +36,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-D92QNCD-releases</name>
+        <url>http://192.168.43.185:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
 
 	<build>
 		<plugins>
