@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       agent any
       steps {
-        sh 'mvn package'
+        sh 'mvn deploy'
       }
     }
     stage('test') {
